@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp"
+    app:cardElevation="20px"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre_item_receta"
+        android:gravity="center"
+        android:text="NOMBRE"
+        android:background="@color/pink"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:id="@+id/img_item_receta"
+            />
+    </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center | bottom"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/purple_500"
+        android:id="@+id/ver_detalle_receta"
+        android:text="Ver mas"
+
+
+        >
+
+    </Button>
+
+
+
+</androidx.cardview.widget.CardView>

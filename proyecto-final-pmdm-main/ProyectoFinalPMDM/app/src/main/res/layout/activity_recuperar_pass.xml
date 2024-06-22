@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".RecuperarPass">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/lpass"
+
+        />
+
+    <TextView
+        android:id="@+id/bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/abel"
+        android:text=" Intoduce tu correo"
+        android:textColor="@color/gris"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:transitionName="textTrans" />
+
+    <TextView
+        android:id="@+id/bienvenidoPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="  Recupera tu contraseña"
+        android:textColor="@color/gris2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:transitionName="textTrans" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/emailTextField"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/round"
+            android:hint="Email"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abel"
+            android:hint="Introducir email"/>
+
+
+        <Button
+            android:id="@+id/recuperarPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/round2"
+            android:text="Restablecer contraseña"
+            android:textColor="@color/black"
+            android:transitionName="buttonSignInTrans">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

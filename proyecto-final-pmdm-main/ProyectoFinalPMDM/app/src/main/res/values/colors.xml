@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#A069ED</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#CF8888</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azul">#80DEEA</color>
+    <color name="azulOscuro">#5566D3</color>
+    <color name="boton2">#F195B4</color>
+    <color name="gris">#554E4E</color>
+    <color name="gris2">#7C7777</color>
+    <color name="cardView">#b6ceeb</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="reply_blue">#E49AE2</color>
+    <color name="reply_orange">#f9AA33</color>
+    <color name="reply_black">#BB88C8</color>
+    <color name="reply_grey">#1F1F1F</color>
+    <color name="reply_mensaje">#91E3DB</color>
+    <color name="reply_boton">#D88200</color>
+    <color name="pink">#D58ECB</color>
+</resources>

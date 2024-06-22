@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="top"
+       android:layout_marginTop="30dp"
+       android:orientation="vertical">
+      <Spinner
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/spinnerRick">
+      </Spinner>
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="200dp">
+
+      <androidx.cardview.widget.CardView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          app:cardCornerRadius="20dp"
+          android:layout_margin="20dp"
+          app:cardElevation="20px"
+          android:id="@+id/carViewRick">
+
+         <ImageView
+             android:layout_width="200dp"
+             android:layout_height="200dp"
+             android:id="@+id/img_spinnerRick">
+
+
+         </ImageView>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="220dp"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="45dp"
+                android:id="@+id/txt_nombre_spinnerRick">
+
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:id="@+id/txt_especie_spinnerRick">
+
+            </TextView>
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginRegistro</string>
+    <string name="invalid_mail">El correo electronico introducido no es valido,ingrese uno correcto</string>
+    <string name="invalid_password">La contraseña debe ser de minimo 6 digitos</string>
+    <string name="invalid_user">El nombre de usuario no es valido,introduzca uno nuevo</string>
+    <string name="invalid_telephone">El numero de telefono debe ser de 9 digitos</string>
+    <string name="invalid_password2">La contraseña debe ser de minimo 6 digitos</string>
+    <string name="abierto">Abierto</string>
+    <string name="cerrado">Cerrado</string>
+</resources>

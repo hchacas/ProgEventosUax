@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opcion_cond_term_2"
+        android:title="Formulario y Redes sociales"
+        />
+    <item
+        android:id="@+id/opcion_cerrarSesion_3"
+        android:title="Cerrar sesion"
+        />
+    <item
+        android:id="@+id/opcion_salir_4"
+        android:title="Salir de la aplicacion"
+        />
+
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:padding="10sp"
+android:orientation="vertical"
+android:background="@drawable/fondochat">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Cambiar foto de perfil de chat"
+
+            />
+        <ImageView
+            android:id="@+id/fotoVender"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chatbox" />
+        <TextView
+            android:id="@+id/nombreUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+          android:gravity="center"
+            android:textColor="@color/cardview_light_background" />
+        <TextView
+            android:id="@+id/nombreTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/cardview_light_background" />
+        
+    </TableLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/listaMensajes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+        android:background="@drawable/fondochat">
+</androidx.recyclerview.widget.RecyclerView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/reply_mensaje">
+    <EditText
+        android:id="@+id/enviarTextos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Mensaje"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/white"
+        />
+    <ImageButton
+        android:id="@+id/btn_Enviar_Producto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/imagen2"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_enviarTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="Enviar"/>
+</LinearLayout>
+
+
+</LinearLayout>

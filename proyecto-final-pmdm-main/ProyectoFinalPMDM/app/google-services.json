@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365877121997",
+    "firebase_url": "https://proyectofinalpsp-7c012-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "proyectofinalpsp-7c012",
+    "storage_bucket": "proyectofinalpsp-7c012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365877121997:android:5007bbb86f731ab6536a84",
+        "android_client_info": {
+          "package_name": "com.julian.proyectofinalpsp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365877121997-odjqv539884errktlef88rr85974nrde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.julian.proyectofinalpsp",
+            "certificate_hash": "546bd3c63ca5a00c3b1e76ae569dc0d0d188975d"
+          }
+        },
+        {
+          "client_id": "365877121997-d7mrut49fmjdb8fm46ckjbu3r9m6o9uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJYuX666DXrHxI4Xu5h_giPEQqhA9Sx2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365877121997-d7mrut49fmjdb8fm46ckjbu3r9m6o9uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
